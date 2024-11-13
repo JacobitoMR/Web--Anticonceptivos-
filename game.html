@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Historia Anticonceptiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Juego de Historia Anticonceptiva</h1>
+    </header>
+
+    <main class="game">
+        <h2>¿Cuánto sabes sobre la historia de los anticonceptivos?</h2>
+        <div id="quiz-container">
+            <div class="question">
+                <p>¿Cuál de estos métodos fue utilizado en el Antiguo Egipto?</p>
+                <button onclick="checkAnswer('a')">a) Mezclas de miel y acacia</button>
+                <button onclick="checkAnswer('b')">b) Pastillas de látex</button>
+                <button onclick="checkAnswer('c')">c) Condones de látex</button>
+            </div>
+            <div id="result"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Anticonceptivos y Su Trayecto en la Historia</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
