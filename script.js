@@ -1,8 +1,5 @@
-# Let's create the required files for the website with the provided code in separate HTML, CSS, and JavaScript files.
 
-# File content for each file based on the provided structure
-
-# index.html content
+ index.html content
 index_html = """
 <!DOCTYPE html>
 <html lang="es">
