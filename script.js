@@ -1,4 +1,3 @@
-
 // Juego de preguntas
 función checkAnswer(respuesta) {
     const resultado = document.getElementById("resultado");
